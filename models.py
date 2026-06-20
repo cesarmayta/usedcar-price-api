@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, Float, String
 from database import Base
 
-class UsedCars(Base):
+class UsedCar(Base):
     __tablename__ = "usedcars"
     
     id = Column(Integer, primary_key=True, index=True)
